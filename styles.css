@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+  background-color: black;
+  align-items: center;
+  margin: 3% 10%;
+
+}
+
+.mainTable{
+  align-self: center;
+
+  margin: 3% auto;
+  padding: 5px 5px;
+  align-content: center;
+  align-items: center;
+  background-image: url(black.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+table{
+  border-spacing: 75px;
+}
+
+td{
+
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  align-content: center;
+  table-layout: fixed;
+  font-size: 1px;
+}
+
+.startButton{
+  width: 150px;
+  height: 45px;
+  font-size: 30px;
+  color: #6b778d;
+  background-color: #525252;
+  font-weight: bold;
+
+}
+
+.finishButton{
+  width: 200px;
+  height: 45px;
+  font-size: 30px;
+  color: #ff5f40;
+  background-color: #4b5d67;
+  font-weight: bold;
+  margin-top: 300px;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  30px;
+  color: #FEF2BF;
+}
+
+#level-title-1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  30px;
+  color: #DDA2BF;
+}
+
+#level-title-3 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  30px;
+  color: #BFFFFF;
+}
+
+.container {
+  display: block;
+  width: 80%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 15px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+
+}
+
+.redStar{
+  color: red;
+  width: 5px;
+  height: 5px;
+  align-self: center;
+  text-align: center;
+  margin-left: 40%;
+  margin-right:40%;
+  opacity: 100%;
+  }
+
+.greenStar{
+
+  color: #06623b;
+}
+
+.yellowStar{
+
+  color: #fbfd8a;
+}
+
+#result{
+  color: white;
+  font-size: 50px;
+  margin-top: 20px;
+}
+#result2{
+  color: #43d8c9;
+  font-size: 50px;
+  margin-top: 20px;
+}
